@@ -1,4 +1,4 @@
-// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.4","target":"arcade","targetVersion":"1.3.13","repo":"jwunderl/arcade-tick-event"}
+// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.4","target":"arcade","targetVersion":"1.3.13","repo":"microsoft/pxt-tick-event"}
 // total=1161661 new=6.70% cached=87.75% other=5.55%
 (function (ectx) {
 'use strict';
@@ -27,7 +27,7 @@ const __this = runtime;
 const pxtrt = pxsim.pxtrt;
 let yieldSteps = 1;
 ectx.setupYield(function() { yieldSteps = 100; })
-pxsim.setTitle("arcade-tick-event");
+pxsim.setTitle("pxt-tick-event");
 pxsim.setConfigData({
  "37": 160,
  "38": 120
@@ -1271,7 +1271,7 @@ switch (step) {
     } else {
       s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["set/yOffset"];
       if (s.tmp_3.fn === null) { s.tmp_3.arg0.fields["yOffset"] = s.tmp_3.arg1; }
-      else if (s.tmp_3.fn === undefined) { failedCast(s.tmp_3.arg0) } 
+      else if (s.tmp_3.fn === undefined) { failedCast(s.tmp_3.arg0) }
      else { s.callLocIdx = 52; s.pc = 9; return s.tmp_3; }
     }
   case 9:
@@ -1339,7 +1339,7 @@ switch (step) {
     } else {
       s.tmp_9.fn = s.tmp_9.arg0.vtable.iface["set/up"];
       if (s.tmp_9.fn === null) { s.tmp_9.arg0.fields["up"] = s.tmp_9.arg1; }
-      else if (s.tmp_9.fn === undefined) { failedCast(s.tmp_9.arg0) } 
+      else if (s.tmp_9.fn === undefined) { failedCast(s.tmp_9.arg0) }
      else { s.callLocIdx = 57; s.pc = 15; return s.tmp_9; }
     }
   case 15:
@@ -7398,7 +7398,7 @@ switch (step) {
     } else {
       s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["set/id"];
       if (s.tmp_3.fn === null) { s.tmp_3.arg0.fields["id"] = s.tmp_3.arg1; }
-      else if (s.tmp_3.fn === undefined) { failedCast(s.tmp_3.arg0) } 
+      else if (s.tmp_3.fn === undefined) { failedCast(s.tmp_3.arg0) }
      else { s.callLocIdx = 806; s.pc = 1; return s.tmp_3; }
     }
   case 1:
@@ -23053,7 +23053,7 @@ switch (step) {
     } else {
       s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["set/z"];
       if (s.tmp_0.fn === null) { s.tmp_0.arg0.fields["z"] = s.tmp_0.arg1; }
-      else if (s.tmp_0.fn === undefined) { failedCast(s.tmp_0.arg0) } 
+      else if (s.tmp_0.fn === undefined) { failedCast(s.tmp_0.arg0) }
      else { s.callLocIdx = 847; s.pc = 5; return s.tmp_0; }
     }
   case 5:
@@ -23077,7 +23077,7 @@ switch (step) {
     } else {
       s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["set/z"];
       if (s.tmp_0.fn === null) { s.tmp_0.arg0.fields["z"] = s.tmp_0.arg1; }
-      else if (s.tmp_0.fn === undefined) { failedCast(s.tmp_0.arg0) } 
+      else if (s.tmp_0.fn === undefined) { failedCast(s.tmp_0.arg0) }
      else { s.callLocIdx = 849; s.pc = 7; return s.tmp_0; }
     }
   case 7:
