@@ -3,7 +3,7 @@
     "version": "0.1.1",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "base": "*"
     },
     "files": [
         "README.md",
@@ -12,6 +12,9 @@
     "testFiles": [
         "test.ts"
     ],
+    "testDependencies": {
+        "device": "*"
+    },
     "public": true,
     "targetVersions": {
         "target": "1.3.15",
