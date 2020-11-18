@@ -1,5 +1,5 @@
 {
-    "name": "arcade-tick-event",
+    "name": "pxt-tick-event",
     "version": "0.1.0",
     "description": "",
     "dependencies": {
