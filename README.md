@@ -1,6 +1,23 @@
 
 > Open this page at [https://microsoft.github.io/pxt-tick-event/](https://microsoft.github.io/pxt-tick-event/)
 
+## Blocks
+
+This extension adds two blocks: `key { key } value { value}` and `post tick event`
+
+The first block creates a key in the tick events data; the value can be either a number or a string.
+
+```blocks
+let myTick = tickevent.createKV("tick", "hi!");
+```
+
+The second block sends a tick event made up of a list of `key value` pairs. This will sent to the parent frame and be sent as a tick event on the share page if shared project is listed as 'approved'.
+
+```blocks
+let myTick = tickevent.createKV("tick", "hi!");
+tickevent.post([tickevent.createKV("data", 5), myTick]);
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -18,12 +35,6 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/microsoft/pxt-tick-event** and click import
 
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/microsoft/pxt-tick-event/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
